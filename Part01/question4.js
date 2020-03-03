@@ -139,7 +139,7 @@ function removeZerosFromExtremities(array) {
   const result = retainedWater !== null && retainedWater === 27;
 
   reportTestResult(
-    "Given [3, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1] result should be 14",
+    "Given [4, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 4] result should be 27",
     result
   );
 })();

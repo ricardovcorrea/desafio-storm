@@ -29,15 +29,15 @@ function isBalanced(bracketsString) {
     throw 'Brackets String cannot be Null or Empty';
   }
   
-  const bracketsStringLenght = bracketsString.length;
+  const bracketsStringLength = bracketsString.length;
 
-  if(bracketsStringLenght % 2 == 1) {
+  if(bracketsStringLength % 2 == 1) {
     return 'NAO';
   }
   
-  const firstHalfEnd = bracketsStringLenght / 2;
+  const firstHalfEnd = bracketsStringLength / 2;
   const firstHalfArray = Array.from(bracketsString.slice(0, firstHalfEnd));
-  const secondHalfArray = Array.from(bracketsString.slice(firstHalfEnd, bracketsStringLenght)).reverse();
+  const secondHalfArray = Array.from(bracketsString.slice(firstHalfEnd, bracketsStringLength)).reverse();
 
   for(let i = 0;i < firstHalfArray.length; i++) {
     const openBracket = firstHalfArray[i];
