@@ -72,9 +72,8 @@ const App = () => {
         </Toolbar>
       </AppBar>
 
-      <div className={'content'}>
+      <div className={"content"}>
         <UsersTable users={users} isLoading={isLoading} />
-        {!isLoading && <Pagination pages={1} />}
       </div>
 
       <Footer />
