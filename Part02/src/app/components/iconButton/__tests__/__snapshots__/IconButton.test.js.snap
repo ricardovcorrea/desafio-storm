@@ -14,7 +14,9 @@ exports[`renders icon button 1`] = `
       <span
         aria-hidden="true"
         class="material-icons MuiIcon-root"
-      />
+      >
+        home
+      </span>
     </span>
     <span
       class="MuiTouchRipple-root"

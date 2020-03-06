@@ -75,7 +75,182 @@ exports[`renders table 1`] = `
         </thead>
         <tbody
           class="MuiTableBody-root"
-        />
+        >
+          <tr
+            class="MuiTableRow-root row"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            >
+              <span
+                aria-disabled="false"
+                class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-57 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <input
+                    class="PrivateSwitchBase-input-60"
+                    data-indeterminate="false"
+                    type="checkbox"
+                    value=""
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            />
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              teste01
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              teste01@gmail.com
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              31/07/2019
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              05/03/2020
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              01
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              <span
+                style="color: red;"
+              >
+                INATIVO
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            />
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              <span
+                aria-hidden="true"
+                class="material-icons MuiIcon-root"
+              >
+                more_horiz
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root row"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            >
+              <span
+                aria-disabled="false"
+                class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-57 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <input
+                    class="PrivateSwitchBase-input-60"
+                    data-indeterminate="false"
+                    type="checkbox"
+                    value=""
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            />
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              teste02
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              teste02@gmail.com
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              08/02/2019
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              03/05/2020
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              02
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              <span
+                style="color: green;"
+              >
+                ATIVO
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-paddingCheckbox"
+            />
+            <td
+              class="MuiTableCell-root MuiTableCell-body centerText"
+            >
+              <span
+                aria-hidden="true"
+                class="material-icons MuiIcon-root"
+              >
+                more_horiz
+              </span>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>

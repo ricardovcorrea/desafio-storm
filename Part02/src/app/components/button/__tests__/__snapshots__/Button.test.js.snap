@@ -11,7 +11,15 @@ exports[`renders button 1`] = `
     <span
       class="MuiButton-label"
     >
-      <span />
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root iconWithText"
+      >
+        settings
+      </span>
+      <span>
+        teste
+      </span>
     </span>
     <span
       class="MuiTouchRipple-root"
