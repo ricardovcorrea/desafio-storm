@@ -5,7 +5,7 @@ import Faker from "faker";
 export const getUsers = () => {
   let fakeUsers = [];
 
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < 50; i++) {
     fakeUsers.push({
       name: Faker.name.firstName(),
       email: Faker.internet.email(),

@@ -2,6 +2,35 @@
 
 exports[`renders search input 1`] = `
 <div>
-  <div />
+  <div
+    class="MuiFormControl-root searchBar"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root searchBarLabel MuiInputLabel-formControl MuiInputLabel-animated"
+      data-shrink="false"
+    >
+      Pesquisar ...
+    </label>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
+        type="text"
+        value=""
+      />
+      <div
+        class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          search
+        </span>
+      </div>
+    </div>
+  </div>
 </div>
 `;

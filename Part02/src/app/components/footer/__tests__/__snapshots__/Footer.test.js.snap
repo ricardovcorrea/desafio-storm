@@ -2,6 +2,75 @@
 
 exports[`renders footer 1`] = `
 <div>
-  <div />
+  <div
+    class="footer"
+  >
+    <div
+      class="onAir"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root onAirIcon"
+      >
+        radio_button_checked
+      </span>
+      NO AR
+    </div>
+    <div
+      class="triangleEdge"
+    />
+    <div
+      class="onAirProgramName"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root onAirProgramIcon"
+      >
+        personal_video
+      </span>
+      ENCONTRO - 10:00
+    </div>
+    <div
+      class="lastUpdate"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root lastUpdateIcon"
+      >
+        update
+      </span>
+      Última atualização em 10:28
+    </div>
+    <div
+      class="grow"
+    />
+    <div
+      class="date"
+    >
+      Quinta, 
+      <span
+        class="dateBold"
+      >
+         30 
+      </span>
+      de
+      <span
+        class="dateBold"
+      >
+         Maio 
+      </span>
+      de
+      <span
+        class="dateBold"
+      >
+         2019 
+      </span>
+    </div>
+    <div
+      class="time"
+    >
+      // 10:30:42
+    </div>
+  </div>
 </div>
 `;

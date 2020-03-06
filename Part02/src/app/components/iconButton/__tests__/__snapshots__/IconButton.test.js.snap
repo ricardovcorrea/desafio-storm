@@ -2,6 +2,23 @@
 
 exports[`renders icon button 1`] = `
 <div>
-  <div />
+  <button
+    aria-label="delete"
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      />
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
 </div>
 `;

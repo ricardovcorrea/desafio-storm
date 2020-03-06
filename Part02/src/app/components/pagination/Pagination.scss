@@ -1,0 +1,14 @@
+.pagination {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.paginationButtonInactive {
+  background-color: #fafafa !important;
+  text-transform: none !important;
+  margin: 5px !important;
+  font-style: normal !important;
+  color: #d1cece !important;
+}

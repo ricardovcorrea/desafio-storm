@@ -1,0 +1,76 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.onAir {
+  color: rgba(253, 131, 2, 1);
+  background-color: black;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+.onAirIcon {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.triangleEdge {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 30px;
+  border-color: transparent transparent transparent black;
+}
+
+.onAirProgramIcon {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.onAirProgramName {
+  align-items: center;
+  display: flex;
+}
+
+.lastUpdateIcon {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.lastUpdate {
+  align-items: center;
+  display: flex;
+  font-style: italic;
+}
+
+.date {
+  align-items: center;
+  display: flex;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.dateBold {
+  font-weight: 800;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.time {
+  align-items: center;
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgba(253, 131, 2, 1);
+  font-size: 30px;
+  font-weight: 800;
+}

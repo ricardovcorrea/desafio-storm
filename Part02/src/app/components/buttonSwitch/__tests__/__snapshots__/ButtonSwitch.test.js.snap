@@ -2,6 +2,48 @@
 
 exports[`renders button switch 1`] = `
 <div>
-  <div />
+  <div
+    class="MuiButtonGroup-root buttonSwitchGroup"
+    role="group"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlinedPrimary buttonSwitch MuiButton-outlinedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          security
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlinedPrimary buttonSwitch buttonSwitchSelected MuiButton-outlinedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root buttonSwitchSelectedIcon"
+        >
+          person
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
 </div>
 `;

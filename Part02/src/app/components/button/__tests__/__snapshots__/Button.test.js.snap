@@ -2,6 +2,20 @@
 
 exports[`renders button 1`] = `
 <div>
-  <div />
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained button"
+    style="background-color: rgb(255, 255, 255);"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <span />
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
 </div>
 `;
